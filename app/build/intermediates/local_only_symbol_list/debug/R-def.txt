@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_add
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnAddColor
+id btnEntreColorCode
+id colorRecyclerView
+id etColor
+id textView
+id tvColor
+layout activity_main
+layout color_dialog
+layout color_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string Vandakanish
+string app_name
+string color_code
+string enter_code
+string enter_color_code
+style Theme.ColorCode

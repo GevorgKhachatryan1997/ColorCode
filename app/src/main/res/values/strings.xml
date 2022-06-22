@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColorCode</string>
+    <string name="enter_color_code">enter color code</string>
+    <string name="enter_code">enter code</string>
+    <string name="color_code">Color code</string>
+    <string name="Vandakanish">#</string>
+</resources>
