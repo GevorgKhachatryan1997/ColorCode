@@ -16,6 +16,11 @@ object ColorData {
         dataChangeListener = null
     }
 
+    fun remove(color: Int){
+        data.removeAt(color)
+        dataChangeListener?.onDataChange(data)
+    }
+
     fun interface DataChangeListener {
         fun onDataChange(data: List<String>)
     }

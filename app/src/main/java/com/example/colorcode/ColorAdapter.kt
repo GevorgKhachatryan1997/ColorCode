@@ -1,5 +1,6 @@
 package com.example.colorcode
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -19,6 +20,7 @@ class ColorAdapter : RecyclerView.Adapter<ColorViewHolder>() {
 
     override fun getItemCount() = colors.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun updateData(newColorsList: List<String>) {
         colors.apply {
             clear()
